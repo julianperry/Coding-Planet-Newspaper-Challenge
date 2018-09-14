@@ -1,7 +1,7 @@
 This is my entry for the $20 Newspaper Contest on CodingPlanet.org
 
 My username is: arizonageek
-email: julianp@yahoo.com
+email: julianperry@protonmail.com (paypal address as well)
 name: Julian Perry
 
 This code is only intended as a code practice for myself and as my entry to the contest on Coding Planet.
