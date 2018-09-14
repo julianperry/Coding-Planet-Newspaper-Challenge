@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newspaper Challenge</title>
+	<!-- Just our CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Using Bootstrap from a CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+	
+	<h1 class="title">THE DAILY CODER</h1>
+
+<!-- This is a quick JS script to above the date below our Newspaper header -->
+<center>
+	<script type="text/javascript">
+		var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1;
+var yyyy = today.getFullYear();
+
+if(dd<10) {
+    dd = '0'+dd
+} 
+
+if(mm<10) {
+    mm = '0'+mm
+} 
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write("Daily Issue for <b>" , today, "</b>");
+	</script>
+</center>
+
+	<hr>
+	<!-- Navigation Bar for our Newspaper -->
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Finance</a></li>
+		<li><a href="#">Technology</a></li>
+		<li><a href="#">Sports</a></li>
+		<li><a href="#">Weather</a></li>
+	</ul>
+	<hr>
+
+
+
+	<div class="container">
+  <div class="row">
+    <div class="col-sm">
+    	<div class="image">
+    		<div class="container">
+    		<a href="http://apple.com"><img src="iphone.jpg" title="Click to visit Apple.com - Royalty Free Image by Unsplash.com" width="512px;"></a>
+    		 </div>
+
+    		<br>
+    		<br>
+    		<br>
+
+    		<p id="quote">What Apple Customers are Saying:</p>
+
+				<blockquote cite="http://www.worldwildlife.org/who/index.html">
+				'Honestly I'll buy anything if it's shiny and has an Apple logo on it, but this Coding Edition phone is truly special to me. This device is so sleek and polished, that it really feels as though it might slip out of my hands and crack on the sidewalk pavement at any moment. I think Apple has really outdone themselves this time.' - <b>Alan</b>
+				</blockquote>
+
+				<br>
+
+				<blockquote cite="http://www.worldwildlife.org/who/index.html">
+				'It looks like a nice phone, I'll be honest. I really like that they added wireless charging to these newer models. No more looking around for another weird dongle, now everything is just wireless and works!' - <b>Susan</b>
+				</blockquote>
+
+    
+</div>
+</div>
+    <div class="col-sm">
+    	<center>
+    		<br>
+    		<h1 id="cat">TECHNOLOGY</h1>
+    		<br>
+      		<h1 class="postTitle">- Apple Launches Latest iPhone Models -</h1>
+      		<p>Article by <b>@ArizonaGeek</b></p>
+      	</center>
+      		<br>
+      		<p><h6>The world famous Cupertino, CA company "Apple" (NASDAQ: <a href="#">APPL</a>)</h6> does it again by wowing the world with yet the latest in iPhone innovations. Company CEO, Tim Cook says that the "iPhone Coding Planet Edition" is just the latest in a number of planned launches for this fall. Customers were quick to comment on the phone's amazing ability to be unlocked by simply "feeling your presence". Although the phone does require a small blood sample to setup the feature, customers say it's a small price to pay for peace of mind. The new Coding Planet edition is expected to launch with a tiny 2TB hard drive along with a dual SLI setup for two GTX 1080 TI's inside the device's small wukandan steel frame. </p>
+
+      		<br>
+
+      		<p>
+      		Although the device is expected to be released in October in just 10 years, customers are already camping outside of Apple Stores. We spoke to one excited early worm outside the Apple store near our offices in New York who said "I'm really excited you know, I'm 21 right now so when I'm 31 I can rest assured I have the latest technology for at least the next 6 months after that". Prices are set reasonably for these new models with an entry model with 12kb of on-board storage expected to retail for just one easy payment of $29.99 and 12 not so easy paments of $9,999.99 being charged once every full moon if it lands on the second Friday of that respective month.
+      		</p>
+
+      		<br>
+      		<br>
+      		<br>
+
+      		<img src="apple.jpg" width="512px">
+      		<br>
+
+      		<p>
+      			<i>Coding Planet user <b>@ArizonGeek</b> has reached out to Apple for a statement, they failed to respond to our media queries citing they were too busy swimming in the Scrooge McDuck gold vault. 
+      		</i></p>
+      		<br>
+      		<br>
+
+
+</div>
+
+<br>
+
+<div class="comments">
+	<hr>
+	<h3>User Comments:</h3>
+	<br>
+
+	<img src="profile.png" width="64px"><img src="mod.png" width="16px" title="This user is verified">
+	<h6><a href="http://codingplanet.org">@pizzadude23</a><h6>
+	<p>Honestly, I think the new phones are just a bit too expensive but they're still really nice.</p>
+	<br>
+	<br>
+
+	<img src="profile.png" width="64px">
+	<h6><a href="http://codingplanet.org">@markzuck1</a><h6>
+	<p>OMG I'm totally going to pre-order, so excited ^.^</p>
+	<br>
+	<br>
+
+	<img src="profile.png" width="64px">
+	<h6><a href="http://codingplanet.org">@rickandmortyfan98</a><h6>
+	<p>Looks like a nice upgrade but I'm gonna wait for the CNET/TechCrunch reviews first.</p>
+	<br>
+	<br>
+	<h5>Login <a href="#">here</a> to leave a comment.</h5>
+
+	<hr>
+
+	<br>
+	<br>
+
+	<center>
+		The Daily Coder and this code project by <b>@ArizonaGeek</b> for CodingPlanet.org is (C) Copyright 2018<br>julianp@yahoo.com - Twitter <a href="http://twitter.com/imjulianperry">@ImJulianPerry</a>
+		<br>
+		<br>
+		<br>
+		<br>
+	</center>
+
+</div>
+
+
+<br>
+</body>
+</html>

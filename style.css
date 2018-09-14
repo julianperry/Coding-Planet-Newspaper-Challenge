@@ -1,0 +1,104 @@
+
+
+/* changes the text highlight color on our Newspaper site for this challenge */
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+
+
+/* this is to put text over our image of the iPhone */
+
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+}
+
+
+li:hover {
+	text-decoration: underline;
+	color:black;
+}
+
+blockquote {
+	color: black;
+}
+
+#quote {
+	color: black;
+	font-size: 30px;
+}
+
+
+.title {
+	text-align: center;
+	font-family: "Times New Roman";
+	font-size: 85px;
+	color: #006699;
+}
+
+#cat {
+	font-size: 30px;
+}
+
+.postTitle {
+	font-family: "Times New Roman";
+	font-size: 27px;
+}
+
+.comments {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin:;
+}
+
+.comments p {
+	background-color: #efefef;
+}
+
+.container {
+    position: relative;
+}
+
+
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
